@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",              /* Modern JS output */
+    "module": "CommonJS",            /* Node.js compatible */
+    "rootDir": "src",                /* Source folder */
+    "outDir": "dist",                /* Build output folder */
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"],                /* Compile everything inside src/ */
+  "exclude": ["node_modules", "dist"]
+}
